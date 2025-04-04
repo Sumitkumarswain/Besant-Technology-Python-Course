@@ -1,0 +1,101 @@
+Python is a high-level, easy-to-read, general-purpose programming language. It's popular for:
+
+Web development
+
+Data analysis
+
+Machine learning
+
+Automation
+
+App development
+
+Scripting
+
+It’s known for its clean syntax and readability, which makes it a great choice for beginners.
+
+✅ Key Features of Python
+Simple & Easy to Learn
+Open Source
+Cross-platform
+Extensive Libraries (NumPy, Pandas, etc.)
+Used by Big Companies (Google, Netflix, Instagram)
+
+
+> Variables 
+Variables are containers used to label and store values for future reference.
+example - Price = 5
+          print(price+1)
+output -   6
+
+> Datatypes - 1. Numeric Datatypes
+                a. Integer
+                b. Float
+                c. Complex
+              2. Sequence Datatypes
+                a. String
+                b. List
+                c. Tuple
+                d. Range
+              3. Set Datatypes  
+              4. Mapping Datatype
+              5. Boolean Datatypes
+
+List datatypes are write in [] this.
+Tuple Datatypes are write in () this.
+
+example -1. Fruits = ['apple', 'banana', 'grapes']
+
+          type(Fruits)
+  output - list
+But if someone try to change it he can easily -
+            Fruits = ['apple', 'banana', 'pineapple']
+the previous data removed and overwrite by the new one.
+
+2.  Fruits("apple", "banana")
+it is a tuple datatype so it can't be changed after assining.
+
+3. How to change the datatypes in python.
+> If a = 1.56
+    it is a float datatype
+So if i want to change the datatype float to integer
+> int(a)
+output - 1
+And now this is a Integer datatype.
+
+Upper case - 
+a = [""]
+Fruit = "Apple"
+>Fruit.upper()
+>output - APPLE
+
+Fruit.lower()
+output - apple
+
+Fruit.capitalize()
+output - Apple
+
+Fruit.title()
+output - Apple
+But in a sentense
+
+sen = "hello python world."
+sen.capitalize()
+output - Hello python world.
+
+sen.title()
+output - Hello Python World.
+Here capitalize() used for only first word's first letter capital.
+And title() used for only every words in a sentense gets capital.
+
+Arithmatic Operators - 1. Addition (+)
+                      2. Substraction (-)
+                      3. Multiplication (*)
+                      4. Divison (/)
+                      5. Floor Division (//)
+Floor division - It divides one value by another, then give the divisor value by rounds down to the nearest integer.
+                      6. Exponentiation (**)
+Exponentiation - It raise one value to the power of another.
+if 2 ** 5 = 2 is base value and 5 is power means 
+                      7. Modulus (%) 
+                
