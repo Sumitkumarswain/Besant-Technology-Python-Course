@@ -177,5 +177,22 @@ Here how it works - [2,3,4,8,5,7,2,6] :- the index count is like-
  0  1  2  3  4  5  6  7
 so we find the index for 4 so it gives output 2.
 
+in string:
+a = "Iam a student"
+print(a.index(5))
+output - 'a'
+
+---- Slicing
+Slicing in Python is a technique used to extract a portion of a sequence (like a list, tuple, string, etc.) using a specific syntax.
+Slicing syntax - sequence[start:stop:step]
+-- start: index where the slice starts (inclusive)
+
+-- stop: index where the slice ends (exclusive)
+
+-- step: how many steps to take (default is 1)
+
+example 1 - Fruit = ["apple", "banana", "grapes", "mango", "watermelon", "Guava"]
+                    Fruit[2:5:1]
+                    output - ['grapes', 'mango', 'watermelon']
 
 
