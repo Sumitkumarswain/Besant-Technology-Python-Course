@@ -194,5 +194,14 @@ Slicing syntax - sequence[start:stop:step]
 example 1 - Fruit = ["apple", "banana", "grapes", "mango", "watermelon", "Guava"]
                     Fruit[2:5:1]
                     output - ['grapes', 'mango', 'watermelon']
+example 2 - Fruit[2:5:]
+          by default step is 1 so the output become
+          ['grape','mango','watermelon']
+example 3 - Fruit[1::]
+          it gives output start from 1 and stops at last and taskes each one.
+          output - ['banana', 'grapes','mango','watermelon','guava']
+example 4 - Fruit[1:-1:1]
+          output take from 1 and stops at last end and exclude it then rest are our output.
+          ['banana','grapes','mango','watermelon']
 
 
