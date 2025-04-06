@@ -205,7 +205,13 @@ example 4 - Fruit[1:-1:1]
           ['banana','grapes','mango','watermelon']
 --- if we add different data types in a list then how we extract by slicing.
 example 5 - mixed_list - [1, 1.25, "Character", "Hello Python World"]
-                          0    1
-mixed_list[]
+                          0    1        2                   3
+mixed_list[1:3:1]
+output - [1.25, "character"]
 
+another example - mixed = [1.23, 12, ["character", "kite"], [12, 33, 55.25]]
+so now -  0    1               2                  3    
+But in 2 & 3 -          0          1       0    1    2 
 
+so now in slicing if you want in output - "character", 33,55.25
+                    ------print((mixed[2][0:1:])+(mixed[3][1:3:]))
