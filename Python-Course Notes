@@ -203,5 +203,9 @@ example 3 - Fruit[1::]
 example 4 - Fruit[1:-1:1]
           output take from 1 and stops at last end and exclude it then rest are our output.
           ['banana','grapes','mango','watermelon']
+--- if we add different data types in a list then how we extract by slicing.
+example 5 - mixed_list - [1, 1.25, "Character", "Hello Python World"]
+                          0    1
+mixed_list[]
 
 
