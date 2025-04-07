@@ -215,3 +215,13 @@ But in 2 & 3 -          0          1       0    1    2
 
 so now in slicing if you want in output - "character", 33,55.25
                     ------print((mixed[2][0:1:])+(mixed[3][1:3:]))
+
+----- Dictionary Data types
+dict1 = {
+    "John":"Cricket",
+    "Kabir":"Tennis",
+    "Linu":"Football"
+}
+
+dict1["John"]
+output - 'cricket'
